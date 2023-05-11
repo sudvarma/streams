@@ -10,5 +10,21 @@ Bounded data stream have a defined start and end. Typically, all the data is ing
 
 Unbounded streams have a start but no defined end. They do not terminate and provide data as it is generated. There is no waiting for all the data to arrive because the data stream never stops coming, and events in the data stream can arrive out of order.
 
+#### Examples of streaming applications
+
+- Event-driven applications where the streams are formed by event data.
+
+- Data Analytics applications where the streams are formed by data 
+
+- Data Pipeline applications like ETL
+
+#### Popular Distributed Stream Processing Engines
+
+- Apache Spark
+- Apache Flink
+- Apache Storm
+
+
+
 
 
