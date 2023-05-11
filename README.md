@@ -23,7 +23,7 @@ Unbounded streams have a start but no defined end. They do not terminate and pro
 - Apache Spark
 - Apache Flink
 - Apache Storm
-
+- Apache Kafka is the most popular data streams pipeline, that can scale to transmit very large amount of data and is the backbone of most stream processing systems.
 
 
 
