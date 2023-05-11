@@ -27,18 +27,19 @@ Unbounded streams have a start but no defined end. They do not terminate and pro
 
 ### Important Stream APIs
 
-#### map
-#### flatmap
-#### filter
-#### reduce
-#### collect
+#### - map
+#### - flatmap
+#### - filter
+#### - reduce
+#### - collect
+#### - join
 
 ### Windowing Concept
 
-#### Tumbling Window
-#### Sliding Window
-#### Session Window
-#### Global Window
+#### - Tumbling Window
+#### - Sliding Window
+#### - Session Window
+#### - Global Window
 
 
 
