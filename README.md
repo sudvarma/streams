@@ -28,11 +28,22 @@ Unbounded streams have a start but no defined end. They do not terminate and pro
 ### Important Stream APIs
 
 - map
+Able to modify the value of an elementin the stream. Executes a function against each element in the stream and outputs one element. Say for integer stream as part of processing increment the value can be a map function and the output would be the incremented value.
+  
 - flatmap
+Process the element of the stream and can return a lits of outputs. the list is added to the element of the output stream.
+
 - filter
+A boolean function is executed to identify whether the elemnent should be included in the output stream.
+
 - reduce
+reduce or combine elements so that the output stream has fewer elements 
+
 - collect
+a terminal operation collect the output of the output stream to memory
+
 - join
+to join with another stream mostly based on key. similar sql joins inner and outer join support exists.
 
 ### Windowing Concept
 
