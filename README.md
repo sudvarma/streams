@@ -36,6 +36,8 @@ Unbounded streams have a start but no defined end. They do not terminate and pro
 
 ### Windowing Concept
 
+The windowing concept brings the notion of micro-batching within an unbounded data stream.
+
 - Tumbling Window
 A tumbling windows assigner assigns each element to a window of a specified window size. Tumbling windows have a fixed size and do not overlap. For example, if you specify a tumbling window with a size of 5 minutes, the current window will be evaluated and a new window will be started every five minute
 
