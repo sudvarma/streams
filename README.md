@@ -51,8 +51,10 @@ The session windows assigner groups elements by sessions of activity. Session wi
 - Global Window
 A global windows assigner assigns all elements with the same key to the same single global window.
 
+### Notion Of Time
+For micro-batching or windowing the streams based on time - the notion of time plays a key role. The windows can be created by "processing time" (the time the event is received at the pipeline) or the "event time" (the time is part of the event payload and is the time when event got generated). Windowing based on the processing time is straight forward, where as based on event time is tricky as events can arrive pretty late.
 
-
+As events can come unordered or late the windowing uses heuristics to identify when to close a window or process the events in window. Broader concepts of "watermark" and "triggers" are used to identify all events belongng to the window and processing/garbage collection of windows respectively.
 
 
 
